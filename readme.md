@@ -61,6 +61,16 @@ cd e:\downloads\
 
 5. You can review the log file that is created in the same folder as the script.
 
+## Screenshots
+
+Output showing each file being processed. Only files that need to be rotated are touched:
+
+![](https://github.com/mroshaw/Video-Rotation-Fixer/blob/135bf23dfe9c90f3246828105dd6f62d1956151a/images/Screenshot1.png?raw=true)
+
+Output showing summary log, with number of files processed and backup space used. You can run the script with `$reportOnly=$true` to get a summary like this before you run anything:
+
+![](https://github.com/mroshaw/Video-Rotation-Fixer/blob/135bf23dfe9c90f3246828105dd6f62d1956151a/images/Screenshot2.png?raw=true)
+
 ## Disclaimer
 
 This script was written with some help from ChatGPT, and has been thoroughly tested on my own extensive library of home movies.
